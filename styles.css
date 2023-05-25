@@ -49,6 +49,8 @@ h1 {
     margin-top: 8px;
     /* border: solid black 2px; */
     border-radius: 12px;
+    object-fit: scale-down;
+    max-width: 100%;
 }
 
 body {
@@ -62,6 +64,7 @@ body {
     border-radius: 12px;
     padding: 16px;
     margin-bottom: 16px;
+    width: 100%;
 }
 
 img {
@@ -77,4 +80,15 @@ img {
 
 .pizza {
     width: 512px;
+}
+
+@media (orientation: portrait) {
+    .content {
+        padding-left: 1%;
+        padding-right: 1%;
+        font-size: 16px;
+    }
+    .recipelist span {
+        width: 300px
+    }
 }
