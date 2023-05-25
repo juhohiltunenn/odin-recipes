@@ -27,20 +27,48 @@ h1 {
     width: 100%;
     padding: 40px 0;
     text-align: center;
-    background: magenta;
+    background: lightsalmon;
     color: white;
+}
+
+.recipelist span {
+    display: inline-block;
+    background-color: lightsalmon;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 360px;
+    text-align: center;
+    padding: 16px;
+    margin-top: 8px;
+    /* border: solid black 2px; */
+    border-radius: 12px;
 }
 
 body {
     margin: 0 auto;
+    background-color: #f8f8f8;
 }
 
 .content {
     padding-left: 25%;
 }
 
+.box {
+    display: inline-block;
+    background-color: lightsalmon;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+img {
+    border-radius: 12px;
+    margin-top: 16px;
+}
+
 .dishphoto {
-    padding-top: 2%;
+    margin-top: 32px;
 }
 
 .pizza {
