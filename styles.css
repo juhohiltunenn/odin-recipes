@@ -91,4 +91,7 @@ img {
     .recipelist span {
         width: 300px
     }
+    .box {
+        max-width: 100%;
+    }
 }
